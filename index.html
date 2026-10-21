@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seleccionar Imagen - TP N°3 Lenguaje IV</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="tarjeta">
+    <p>Seleccionar Imagen:</p>
+
+    <input type="file" id="inputImagen" accept="image/*" hidden>
+    <button id="btnSubir">Subir Archivo</button>
+  </div>
+
+  <div class="tarjeta" id="tarjetaInfo" hidden>
+    <div id="infoArchivo" class="info-archivo"></div>
+    <img id="previewImagen" class="preview">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
